@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+.eggs/
+sdist/
+wheel/
+pip-wheel-metadata/
+develop-eggs/
+*.egg-info
+MANIFEST
+MANIFEST.in
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+nosetests.xml
+coverage*
+.coverage
+.cache
+pytest_cache/
+
+# Environment-specific files
+.env
+venv/
+env/
+ENV
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
