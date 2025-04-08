@@ -42,8 +42,8 @@ else:
 
 # Always allow localhost for development/health checks if needed
 ALLOWED_HOSTS.extend(['127.0.0.1', 'localhost'])
-# Add any custom domains if you have them, e.g., ALLOWED_HOSTS.append('www.yourdomain.com')
 
+ALLOWED_HOSTS.append('safe-sea-43888-679e2e949657.herokuapp.com')
 
 # Application definition
 
