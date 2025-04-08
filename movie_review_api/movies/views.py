@@ -18,3 +18,14 @@ class ReviewListView(generics.ListCreateAPIView):
     filter_backends = [filters.OrderingFilter]
     ordering_fields = ['rating', 'created_at', 'movie__title']
     ordering = ['-created_at']
+
+class RootView(APIView):
+    """
+    A simple view to show the available API endpoints.
+    """
+    def get(self, request, *args, **kwargs):
+        return Response({
+            'movies': request.build_absolute_uri('movies/'),
+            'reviews': request.build_absolute_uri('reviews/'),
+            # Add other endpoints as needed
+        })
