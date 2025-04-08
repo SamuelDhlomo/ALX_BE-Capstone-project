@@ -95,7 +95,9 @@ WSGI_APPLICATION = 'movie_review_api.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-# Database configuration using dj-database-url for Heroku compatibility
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+
 DATABASES = {
     'default': dj_database_url.config(
         # Get DATABASE_URL from Heroku environment variable
