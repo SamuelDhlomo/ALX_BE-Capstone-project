@@ -1,5 +1,6 @@
 from rest_framework import generics, filters
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
+from rest_framework.views import APIView
 from .models import Movie, Review
 from .serializers import MovieSerializer, ReviewSerializer
 
