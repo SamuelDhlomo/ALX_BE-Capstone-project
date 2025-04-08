@@ -1,7 +1,7 @@
 asgiref==3.8.1
 gunicorin
 dj-database-url==2.3.0
-psycopg2==your_psycopg2_version
+psycopg2==2.9.10
 Django==5.2
 django-filter==25.1
 djangorestframework==3.16.0
