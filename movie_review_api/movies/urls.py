@@ -1,3 +1,4 @@
+from rest_framework.views import APIView
 from django.urls import path
 from .views import MovieListView, ReviewListView, RootView
 
