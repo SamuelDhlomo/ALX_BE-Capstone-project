@@ -28,5 +28,5 @@ class RootView(APIView):
         return Response({
             'movies': request.build_absolute_uri('movies/'),
             'reviews': request.build_absolute_uri('reviews/'),
-            # Add other endpoints as needed
+            
         })
