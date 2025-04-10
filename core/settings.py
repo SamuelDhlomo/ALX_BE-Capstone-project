@@ -32,6 +32,7 @@ HEROKU_APP_NAME = os.environ.get('HEROKU_APP_NAME')
 if HEROKU_APP_NAME:
     ALLOWED_HOSTS.append(f"{HEROKU_APP_NAME}.herokuapp.com")
 ALLOWED_HOSTS.extend(['127.0.0.1', 'localhost'])
+ALLOWED_HOSTS.append('alx-dhlomo-movie-review-app-9007aa541b6c.herokuapp.com')
 
 
 # Application definition
